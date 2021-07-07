@@ -44,5 +44,4 @@ public:
             std::cout << i << ": " << disjoint_set[i] << " \n";
         }
     }
-
 };
