@@ -10,7 +10,7 @@ class DisjointSet {
     size_t n;
 
 public:
-    CHM(size_t n) : n(n), rank(n + 1, 1) {
+    DisjointSet(size_t n) : n(n), rank(n + 1, 1) {
         for (size_t i = 0; i < n + 1; ++i) {
             disjoint_set.push_back(i);
         }
